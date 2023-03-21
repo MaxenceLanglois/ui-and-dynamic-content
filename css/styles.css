@@ -1,0 +1,107 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans&display=swap');
+
+button:hover{
+    cursor: pointer;
+}
+
+h2{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+
+}
+
+input button ul li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: auto;
+    border-radius: 10px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .main-content{
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  #shopping-list li{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    border-style: none none solid none;
+  }
+
+  input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  button{
+  background-color: #B66D63; /* pink */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin: 8px 0;
+  
+  }
+  
+  /* Style the footer section */
+  
+  .footer {
+    background-color: #B66D63;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer li {
+    margin-right: 20px;
+    font-size: 1rem;
+  }
+  
+  .fa-facebook-square, .fa-twitter-square, .fa-linkedin {
+    color: white;
+    margin-right: 10px;
+  }
+
+  /* Media queries */
+
+  @media only screen and (max-width: 600px){
+    h2{font-size: 1.5rem;}
+    p{font-size: 0.75rem;}
+    li{font-size: 0.75rem;}
+    a{ 
+        font-size: 0.75rem;
+    }
+  }
